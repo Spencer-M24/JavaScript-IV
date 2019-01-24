@@ -12,7 +12,7 @@ function Person(personAttributes)  {
   this.age = personAttributes.age;
   this.location = personAttributes.location;
 }
-
+      
 const fred = new Person({
   name: 'Fred',
   age: 37,
